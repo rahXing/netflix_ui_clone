@@ -1,0 +1,105 @@
+@media (min-width:1000px){
+    .hero{
+        height: 500px;
+    }
+    .heroheading{
+        font-size: 3.6rem;
+        font-weight: 1200;
+        
+        width: 530px;
+    }
+.herofirstPtag{
+    font-size:1.5rem ;
+}
+    .herobuttons{
+        flex-direction: row;
+        justify-content: center;
+    }
+    .herosecondPtag{
+        font-size: 1.5rem;
+    }
+    .heroemail input{
+        width: 350px;
+        height: 58px;
+        border-radius: 40px;
+        font-size: 1.5rem;
+    }
+    .herogetstarted{
+        width: 250px;
+        height: 58px;
+
+        border-radius: 40px;
+
+    }
+    .herogetstartedtext{
+        font-size: 1.5rem;
+    }
+    .trendingnow{
+        font-size: 2rem;
+        padding-left: 50px;
+    }
+    .cards_section
+{
+    height: 400px;
+
+}
+.card
+{
+    width: 200px;
+}
+.card img{
+    width: 200px;
+}
+.arrow{
+    top: 150px;
+    width: 2.5rem;
+    height: 8rem;
+}
+.cardno{
+    font-size: 5rem;
+}
+.planssection{
+    flex-direction: row;
+    justify-content: space-evenly;
+    
+
+}
+.planscard{
+    max-width: 360px;
+    height: 225px;
+    padding: 2rem;
+
+}
+.plan-title{
+    font-size: 24px;
+}
+.reasontext{
+    height: 50%;
+}
+.reasontextheading{
+    font-size: 20px;
+}
+.reasontextparagraph{
+    font-size: 16px;
+    margin-top: 5px;
+   
+}
+.reasonsvg{
+  padding-top: 20px;
+}
+.reason{
+    height: 235px;
+    padding: 20px;
+}
+.faqtext{
+    font-size: 18px;
+}
+.faqcard{
+    height: 72px;
+}
+    
+}
+
+    
+
+
