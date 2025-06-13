@@ -174,15 +174,20 @@ body {
 
   display: flex;
   justify-content: flex-start;
-  overflow:  hidden;
+  overflow-x:  auto;
+  overflow-y: hidden;
+  scroll-snap-type: x mandatory;
+  scrollbar-width: none;
   gap: 32px;
   position: relative;
+   -webkit-overflow-scrolling: touch; /* smooth scroll on iOS */
 }
 
 .card {
   height: 100%;
   width: 104px;
   border-radius: 20px;
+  scroll-snap-align: start;
 
   position: relative;
   /* border: 1px solid yellow; */
